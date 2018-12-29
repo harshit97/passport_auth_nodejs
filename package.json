@@ -1,0 +1,35 @@
+{
+  "name": "passport_auth_nodejs",
+  "version": "1.0.0",
+  "description": "Trying out Passport node module for basic server side authentication.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit97/passport_auth_nodejs.git"
+  },
+  "keywords": [],
+  "author": "Harshit Agarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harshit97/passport_auth_nodejs/issues"
+  },
+  "homepage": "https://github.com/harshit97/passport_auth_nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
